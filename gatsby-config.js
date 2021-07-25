@@ -22,9 +22,10 @@ module.exports = {
       options: {
         password: process.env.SHOPIFY_SHOP_PASSWORD,
         storeUrl: process.env.SHOPIFY_STORE_URL,
+        downloadImages:true
       },
     },
-
+    `@chakra-ui/gatsby-plugin`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
